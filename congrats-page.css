@@ -1,0 +1,78 @@
+.dicons8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 395px;
+  height: 395px;
+  object-fit: cover;
+}
+.dicons10,
+.dicons11,
+.dicons12,
+.dicons9 {
+  position: absolute;
+  top: 691px;
+  left: 1104px;
+  width: 414px;
+  height: 414px;
+  object-fit: cover;
+}
+.dicons10,
+.dicons11,
+.dicons12 {
+  top: 646px;
+  left: 0;
+  width: 378px;
+  height: 378px;
+}
+.dicons11,
+.dicons12 {
+  top: 0;
+  left: 1073px;
+  width: 449px;
+  height: 449px;
+}
+.dicons12 {
+  left: 181px;
+  width: 1075px;
+  height: 1075px;
+}
+.you-made-it {
+  position: absolute;
+  top: 104px;
+  left: 348px;
+  font-weight: 700;
+}
+.congrats-page-child {
+  position: absolute;
+  top: 301px;
+  left: 61px;
+  border-radius: var(--br-2xl);
+  background-color: rgba(220, 220, 220, 0.43);
+  box-shadow: 0 4px 43px 19px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(80px);
+  width: 1316px;
+  height: 441px;
+}
+.receive-a-mail {
+  margin: 0;
+}
+.receive-a-mail-container {
+  position: absolute;
+  top: 366px;
+  left: 252px;
+  font-size: 90px;
+  color: var(--color-black);
+  text-align: center;
+}
+.congrats-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 128px;
+  color: #00164f;
+  font-family: var(--font-satoshi);
+}

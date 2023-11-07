@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;800&display=swap"
+    />
+
+    <style>
+      @font-face {
+        :font-family: "Satoshi";
+        src: url("Satoshi-Regular.otf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Satoshi";
+        src: url("Satoshi-Bold.otf");
+        font-weight: 500;
+      }
+      @font-face {
+        :font-family: "Satoshi";
+        src: url("Satoshi-Bold.otf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "Clash Display";
+        src: url("ClashDisplay-Semibold.otf");
+        font-weight: 600;
+      }
+      @font-face {
+        :font-family: "Clash Display";
+        src: url("ClashDisplay-Bold.otf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "Arial";
+        src: url("Arial Regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Arial";
+        src: url("FontsFree-Net-arial-bold (1).ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "Panchang";
+        src: url("Panchang-Bold.otf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "DVB-TTGaneshEN";
+        src: url("Boska-BlackItalic.otf");
+        font-weight: 700;
+      }
+      @font-face {
+        :font-family: "Tanker";
+        src: url("Tanker-Regular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Zodiak";
+        src: url("Zodiak-Extrabold.otf");
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktop-2">
+      <div class="cta2">
+        <div class="cta2">
+          <img class="gradient-icon2" alt="" src="./public/gradient2@2x.png" />
+
+          <b class="guaranteed-to-increase1">Guaranteed to increase your</b>
+          <div class="dropshipers-we-help2">
+            Dropshipers, we help you generate authentic sales and boost ROI with
+            our proven social media marketing strategies. Get started today and
+            see the difference!
+          </div>
+          <div class="dropshiping-sales-by-container1">
+            <p class="dropshiping-sales-by-101">
+              <span>
+                <b>Dropshiping sales by </b>
+                <i class="i1">10%</i>
+              </span>
+            </p>
+            <p class="in-30-days1">
+              <span>
+                <b class="in1"> in </b>
+                <i class="days1">
+                  <span>30 days</span>
+                  <span class="span7"> </span>
+                </i>
+              </span>
+            </p>
+          </div>
+          <b class="or-your-money1">or your money back.</b>
+          <img class="dicons13" alt="" src="./public/3dicons13@2x.png" />
+
+          <img class="dicons14" alt="" src="./public/3dicons6@2x.png" />
+
+          <div class="cta-child1"></div>
+          <button
+            class="contact-us-group"
+            id="frameButton"
+            data-animate-on-scroll
+          >
+            <b class="contact-us2">Contact us</b>
+            <img class="vector-icon4" alt="" src="./public/vector.svg" />
+          </button>
+          <input
+            class="cta-child2"
+            name="Email address"
+            id="Email ID"
+            type="text"
+          />
+
+          <input
+            class="cta-child3"
+            name="date and time"
+            id="date"
+            type="email"
+            width="{}"
+          />
+          
+          <form action=https://formspree.io/f/xaygkwjg method="POST" />
+              <input class="cta-child4" name="name" type="number" />
+
+              <div class="full-name1">Full Name</div>
+              <div class="e-mail-address1">E-mail address</div>
+              <div class="number1">Number</div>
+            </div>
+          </div>
+        </div>
+            </from>
+
+
+    <script>
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./congrats-page.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
